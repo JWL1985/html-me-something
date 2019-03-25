@@ -4,6 +4,10 @@ h1 {
     border-bottom: solid;
 }
 
+body {
+    margin: 0 20px;
+}
+
 .main-image {
     display: block;
     margin-left: auto;
@@ -14,6 +18,10 @@ h1 {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    width: auto;
+    border: 5px solid black;
+    display: block;
+    margin: 0 auto;
 }
 
 .header a.logo {
@@ -21,18 +29,60 @@ h1 {
     font-weight: bold;
 }
 
-.header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 30px;
-    background-color: none;
+.header-right {
+    display: inline;
+    float: right;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 24px;
 }
 
-.header-right {
+.header-right a {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.main-body {
+}
+
+.main-body p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: auto;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid black;
+    display: block;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.pros-and-cons {
+    display: block;
+    height: auto;
+}
+
+.cons {
     float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.pros {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
 }
